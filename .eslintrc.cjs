@@ -1,11 +1,10 @@
 /** @type {import("eslint").Linter.Config} */
-const config = {
+module.exports = {
   overrides: [
     {
       extends: [
         "plugin:@typescript-eslint/recommended-requiring-type-checking",
       ],
-      files: ["*.ts", "*.tsx"],
       parserOptions: {
         project: "tsconfig.json",
       },
@@ -27,5 +26,3 @@ const config = {
     ],
   },
 };
-
-module.exports = config;
