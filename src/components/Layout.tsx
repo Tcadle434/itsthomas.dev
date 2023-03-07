@@ -18,9 +18,6 @@ export default function Layout({
   const router = useRouter();
   const currentRoute = router.route;
 
-  console.log(router);
-  console.log(currentRoute);
-
   return (
     <div>
       <Head>
@@ -33,14 +30,14 @@ export default function Layout({
         <meta name="theme-color" content="#27272a" />
         <meta property="og:site_name" content="Thomas's Portfolio" />
       </Head>
-      <main className="font-clash max-h-auto relative flex min-h-screen flex-col items-center overflow-x-hidden bg-zinc-100 selection:bg-zinc-200/30 dark:bg-zinc-900">
-        <div className="flex h-full w-full md:w-2/3 lg:w-[60%]">
-          <div className="fixed left-0 z-50 hidden h-full w-[6%] md:block lg:block">
-            <NavBar path={currentRoute} />
-          </div>
-          <div className="fixed top-0 z-50 block w-full px-8 pt-4 md:hidden lg:hidden">
-            <MobileNavBar path={currentRoute} />
-          </div>
+      <main className="flex max-w-3xl flex-col bg-zinc-900 antialiased md:mt-8 md:flex-row lg:mx-auto lg:mt-12">
+        <div className="fixed left-0 z-50 hidden h-full w-[6%] md:block lg:block">
+          <NavBar path={currentRoute} />
+        </div>
+        <div className="fixed top-0 z-50 block w-full px-8 pt-4 md:hidden lg:hidden">
+          <MobileNavBar path={currentRoute} />
+        </div>
+        <div className="mt-6 flex min-w-0 flex-auto flex-col px-2 md:mt-0 md:px-0">
           {children}
         </div>
       </main>

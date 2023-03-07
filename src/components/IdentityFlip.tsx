@@ -21,7 +21,7 @@ const IdentityFlip = ({ frontImageUrl, backImageUrl }: FlipCoinProps) => {
         }
         return !prevIsFront;
       });
-    }, 3000);
+    }, 2500);
     return () => clearInterval(intervalId);
   }, []);
 
@@ -38,6 +38,7 @@ const IdentityFlip = ({ frontImageUrl, backImageUrl }: FlipCoinProps) => {
         <Image
           src={frontImageUrl}
           alt="front image"
+          priority
           layout="fill"
           objectFit="contain"
           className={cn(
@@ -62,7 +63,7 @@ const IdentityFlip = ({ frontImageUrl, backImageUrl }: FlipCoinProps) => {
           )}
         />
       </div>
-      <h1 className="pointer-events-none absolute top-48 left-0 right-0 mt-6 text-center text-3xl font-semibold text-zinc-200 md:top-64">
+      <h1 className="pointer-events-none absolute top-48 left-0 right-0 mt-6 text-center text-4xl font-extrabold text-zinc-200 md:top-64">
         <span className="text-sm font-medium md:text-lg ">Hi, it's</span>
         <br /> {text}
       </h1>
