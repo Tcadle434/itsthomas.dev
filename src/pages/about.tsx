@@ -16,7 +16,7 @@ const about = () => {
               <h2 className="m-0 text-3xl font-extrabold text-zinc-200">
                 About Me
               </h2>
-              <p className="m-0 mb-4 text-lg text-zinc-400">
+              <p className="text-md m-0 mb-4 text-zinc-400">
                 Full Stack Web Developer | Startup Enthusiast | Blockchain
                 Enjoyer
               </p>
@@ -28,7 +28,8 @@ const about = () => {
                 I'm a full stack web developer with a passion for startups and
                 blockchain projects. My current focus is on the development of
                 consumer-facing products for the crypto space at BlockStop, a
-                company that I co-founded.
+                company that I co-founded. My favorie tech stack consists of
+                NextJS, Typescript, TailwindCSS, tRPC, and Prisma.
               </p>
               <br />
               <br />
@@ -39,7 +40,23 @@ const about = () => {
                 Prior to BlockStop, I was as a senior software engineer at
                 Capial One. I primarlily worked on the Digital Messaging
                 division, building out high performance, AWS cloud based
-                microservices and APIs
+                microservices and APIs. Before that I graduated with a Computer
+                Engineering degree from Penn State University.
+              </p>
+              <br />
+              <br />
+              <p className="text-md m-0 text-zinc-300">
+                I'm as interested in building businesses as I am in actually
+                writing code. It is a skillset that I hope to continue to grow
+                as I learn more from my experiences and the people around me.
+              </p>
+              <br />
+              <br />
+              <p className="text-md m-0 text-zinc-300">
+                Aside from my work life, I love to golf, ski, and play video
+                games. On top of that, you'll find me frequently poking around
+                on twitter, where I stay active with my favorite crypto
+                communities.
               </p>
             </div>
           </section>

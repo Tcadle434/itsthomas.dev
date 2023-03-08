@@ -6,8 +6,6 @@ import IdentityFlip from "~/components/IdentityFlip";
 import Layout from "~/components/Layout";
 
 const Home: NextPage = () => {
-  const images = ["/headshot.png", "/punk.png"];
-
   return (
     <>
       <Head>
@@ -64,7 +62,7 @@ const Home: NextPage = () => {
                   className="flex items-center transition-all hover:text-neutral-200"
                   rel="noopener noreferrer"
                   target="_blank"
-                  href="https://leerob.substack.com"
+                  href="mailto:thomas@blockstop.xyz?subject=Let's%20Work%20Together"
                 >
                   <svg
                     className="mr-2"
