@@ -29,9 +29,8 @@ const Home: NextPage = () => {
             </p>
             <p className="text-md m-0 text-zinc-300">
               I'm a full stack web developer with a passion for startups and
-              blockchain projects. My current focus is on the development of
-              consumer-facing products for the crypto space at BlockStop, a
-              company that I co-founded.
+              blockchain projects. Currently, I'm working as a Partner Engineer
+              for Carpool, a Solana B2B SaaS startup.
             </p>
             <ul className="font-sm mt-8 flex flex-col space-x-0 space-y-2 text-zinc-400 md:flex-row md:space-x-4 md:space-y-0">
               <li>

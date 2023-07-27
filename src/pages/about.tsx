@@ -26,9 +26,8 @@ const about = () => {
                 <br />
                 <br />
                 I'm a full stack web developer with a passion for startups and
-                blockchain projects. My current focus is on the development of
-                consumer-facing products for the crypto space at BlockStop, a
-                company that I co-founded. My favorie tech stack consists of
+                blockchain projects. Currently, I'm working as a Partner Engineer
+                for Carpool, a Solana B2B SaaS startup. My favorie tech stack consists of
                 NextJS, Typescript, TailwindCSS, tRPC, and Prisma.
               </p>
               <br />
@@ -37,10 +36,11 @@ const about = () => {
               <br />
               <br />
               <p className="text-md m-0 text-zinc-300">
-                Prior to BlockStop, I was as a senior software engineer at
+                Prior to Carpool, I ran my own Web3 startup for 2 years called Blockstop, a development and marketing agency.
+                Before that, I was as a senior software engineer at
                 Capial One. I primarlily worked on the Digital Messaging
                 division, building out high performance, AWS cloud based
-                microservices and APIs. Before that I graduated with a Computer
+                microservices and APIs. That was my first job after I graduated with a Computer
                 Engineering degree from Penn State University.
               </p>
               <br />

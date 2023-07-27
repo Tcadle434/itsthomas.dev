@@ -4,6 +4,7 @@ import {
   SiInstagram,
   SiTwitter,
   SiTelegram,
+  SiLinkedin
 } from "react-icons/si";
 import { IconType } from "react-icons";
 
@@ -24,10 +25,10 @@ export const links: Links = [
     icon: SiTwitter,
   },
   {
-    name: "Discord",
-    url: "https://discord.com/users/642159440421715979",
-    value: "BlockChief#9023",
-    icon: SiDiscord,
+    name: "Linkedin",
+    url: "https://www.linkedin.com/in/thomas-cadle-6ba290104/",
+    value: "Thomas Cadle",
+    icon: SiLinkedin
   },
   {
     name: "GitHub",
@@ -36,15 +37,21 @@ export const links: Links = [
     icon: SiGithub,
   },
   {
+    name: "Telegram",
+    url: "https://t.me/block_chief",
+    value: "block_chief",
+    icon: SiTelegram,
+  },
+  {
+    name: "Discord",
+    url: "https://discord.com/users/642159440421715979",
+    value: "BlockChief#9023",
+    icon: SiDiscord,
+  },
+  {
     name: "Instagram",
     url: "https://www.instagram.com/thomascadle/",
     value: "thomascadle",
     icon: SiInstagram,
-  },
-  {
-    name: "Telegram",
-    url: "https://t.me/Chief_sol",
-    value: "Chief_sol",
-    icon: SiTelegram,
   },
 ];
