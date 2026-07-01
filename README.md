@@ -1,17 +1,23 @@
 # itsthomas.dev
 
-- **Framework**: [Next.js](https://nextjs.org/)
-- **Language**: [Typescript](https://www.typescriptlang.org/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com)
-- **Deployment**: [Vercel](https://vercel.com)
+My personal site — designed and built from scratch, no template.
 
-## My Personal Website
+The hero is a replay of a real run shape from [Lykos](https://github.com/Tcadle434/prediction-market-agent),
+my open-source prediction-market agent (ingest → RAG → forecast → human approval → paper fill →
+hash-chained audit record), and the career section renders as a hash-chained log in the same spirit.
 
-I wanted to create a website that was easy to direct people to, and that I could use to showcase some of my work. I also wanted to use this as an opportunity to experiment with minimalism in terms of design and development. This project was initialed with the [T3 Stack](https://create.t3.gg/) which is my current go-to for building anything on the web.
+- **Framework**: Next.js 15 (App Router, fully static output)
+- **Styling**: Tailwind CSS v4 — theme tokens in `src/app/globals.css`
+- **Type**: Fraunces + IBM Plex Mono via `next/font`
+- **Motion**: CSS only — staggered load reveals, IntersectionObserver scroll-ins, `prefers-reduced-motion` respected
+- **Deployment**: Vercel
 
-## Credits
+## Run it
 
-Thank you to the following developers & their associated portfolio sites for providing inspiration and code snippets:
+```bash
+npm install
+npm run dev
+```
 
-- [Lee Robinson](https://github.com/leerob/leerob.io)
-- [Ashish](https://github.com/asrvd/asrvd.me)
+Content lives in [`src/lib/content.ts`](src/lib/content.ts) — projects, career log, and links are
+plain data, so edits don't touch layout code.
